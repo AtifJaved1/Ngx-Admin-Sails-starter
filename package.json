@@ -89,13 +89,12 @@
     "url": "git://github.com/sepineda/sails-angular-starter.git"
   },
   "devDependencies": {
+    "@angular-devkit/core": "^0.4.0",
     "@angular/cli": "^1.3.2",
     "@angular/compiler": "^5.0.0",
     "@angular/compiler-cli": "^5.0.0",
-    "@types/core-js": "^0.9.41",
-    "npm-run-all": "4.0.2",
-    "typescript": "~2.7.1",
     "@compodoc/compodoc": "1.0.1",
+    "@types/core-js": "^0.9.41",
     "@types/d3-color": "1.0.5",
     "@types/jasmine": "2.5.54",
     "@types/jasminewd2": "2.0.3",
@@ -112,12 +111,14 @@
     "karma-coverage-istanbul-reporter": "1.3.0",
     "karma-jasmine": "1.1.0",
     "karma-jasmine-html-reporter": "0.2.2",
+    "npm-run-all": "4.0.2",
     "protractor": "5.1.2",
     "rimraf": "2.6.1",
     "stylelint": "7.13.0",
     "ts-node": "3.2.2",
     "tslint": "5.7.0",
-    "tslint-language-service": "0.9.6"
+    "tslint-language-service": "0.9.6",
+    "typescript": "~2.7.1"
   },
   "author": "atifjaved",
   "license": ""
